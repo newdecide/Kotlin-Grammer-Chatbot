@@ -1,6 +1,6 @@
 fun main() {
   // Double 64bit, Float 32bit, Long 64bit, Int 32bit, Short 16bit,Byte8bit
-  var a: Int = 3
+        var a: Int = 3
         a = 5
         var b: Int = 4
         var c: Int = a + b
