@@ -18,4 +18,9 @@ fun main() {
 
         // String 문자열
         var string: String = "나는 문자열 입니다."
+  
+        // Array 배열
+        var array: Array<Char> = arrayOf('a', 'b', 'c')
+        println("$a + $b 는 $c 이다.")
+        println("array 첫번째 인자 " + array.get(0) + " 두번째 인자 " + array.get(1) + " 세번째 인자 " + array.get(2))
 }
