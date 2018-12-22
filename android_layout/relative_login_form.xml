@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/id_input"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#F00" />
+
+    <!--
+        넓이를 id_input의 왼쪽과 오른쪽 길이에 맞춘다.
+    -->
+    <RelativeLayout
+        android:id="@+id/password_input"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/id_input"
+        android:layout_alignLeft="@+id/id_input"
+        android:layout_alignRight="@+id/id_input"
+        android:layout_marginTop="20dp"
+        android:background="#00f" />
+
+    <!--
+        위쪽 여백 20dp 왼쪽 40dp를 둔다.
+    -->
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/password_input"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#0f0" />
+
+    <!--
+        위쪽 여백 20dp 오른쪽 40dp를 둔다.
+    -->
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/password_input"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@android:color/darker_gray" />
+
+</RelativeLayout>

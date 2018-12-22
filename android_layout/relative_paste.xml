@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        android:layout_toLeftOf="@id/right_top"
+        왼쪽으로 붙임.
+     -->
+
+    <RelativeLayout
+        android:id="@+id/left_top"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/right_top"
+        android:background="@android:color/darker_gray" />
+
+    <!--
+        android:layout_above="@id/right_bottom"
+        위쪽으로 붙임
+    -->
+
+    <RelativeLayout
+        android:id="@+id/right_top"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/right_bottom"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_blue_dark" />
+
+    <!--
+    android:layout_toRightOf="@id/left_bottom"
+    오른쪽으로 붙임
+-->
+    <RelativeLayout
+        android:id="@+id/right_bottom"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/left_bottom"
+        android:background="@android:color/holo_red_dark" />
+
+    <!--
+        android:layout_below="@id/left_top"
+        위쪽으로 붙임
+    -->
+
+    <RelativeLayout
+        android:id="@+id/left_bottom"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/left_top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_orange_dark" />
+
+
+    <!--
+        android:layout_below="@id/left_top" 아래쪽
+        android:layout_toLeftOf="@id/right_top" 왼쪽
+        android:layout_above="@id/right_bottom" 위쪽
+        android:layout_toRightOf="@id/left_bottom" 오른쪽
+    -->
+
+    <RelativeLayout
+        android:id="@+id/middle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_purple"
+        android:layout_below="@id/left_top"
+        android:layout_toLeftOf="@id/right_top"
+        android:layout_above="@id/right_bottom"
+        android:layout_toRightOf="@id/left_bottom"/>
+
+</RelativeLayout>
