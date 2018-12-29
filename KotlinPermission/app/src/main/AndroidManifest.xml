@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.study.iayout.kotlinpermission">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> <!-- 휴대폰 기지국, Wifi를 이용한 위치 확인 권한 허가-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> <!-- GPS를 이용한 위치 확인 권한 허가-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/><!--Wifi, Cell 연결 확인 권한 허가-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/><!--Wifi 연결 확인 권한 허가-->
+
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS"/><!--전화 수신에 접근 할 수 있는 권한 허가-->
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/><!--블루투스로 페어링된 디바이스 권한 허가-->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/><!--블루투스 장치 검색 및 페어링 권한 허가-->
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/><!--블루투스가 사용자의 허가없이 페어링 하지 못하도록 적용-->
+
+    <uses-permission android:name="android.permission.BODY_SENSORS"/><!--심장박동 및 신체 내부의 정보 센서 접근 권한 허가-->
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/><!--앱이 다이얼 인터페이스를 거치지 않고 전화를 걸 수 있도록 권한 허가-->
+    <uses-permission android:name="android.permission.CAMERA"/><!--카메라 사용 권한 허가-->
+    <uses-permission android:name="android.permission.INTERNET"/><!--인터넷 사용 권한 허가-->
+    <uses-permission android:name="android.permission.NFC"/><!--NFC 사용 권한 허가-->
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/><!--SD카드 읽기 권한 허가-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/><!--SD카드 쓰기 권한 허가-->
+
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/><!--현재 사용자 휴대폰 번호 읽기 권한 허가-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/><!--녹음 기능 권한 허가-->
+
+    <uses-permission android:name="android.permission.READ_SMS"/><!--SMS읽기 권한 허가-->
+    <uses-permission android:name="android.permission.SEND_SMS"/><!--SMS보내기 권한 허가-->
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/><!--도착한 SMS 읽기 권한 허가-->
+
+    <uses-permission android:name="android.permission.SET_ALARM"/><!--알림 세팅 권한 허가-->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/><!--휴대폰 깨우기 권한 허가-->
+
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/><!--캘린터 쓰기 권한 허가-->
+    <uses-permission android:name="android.permission.READ_CALENDAR"/><!--캘린터 읽기 권한 허가-->
+
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/><!--연락처 쓰기 읽기 권한 허가-->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/><!--연락처 읽기 권한 허가-->
+
+    <uses-permission android:name="android.permission.ADD_VOICEMAIL"/><!--음성 메일 추가 권한 허가-->
+    <uses-permission android:name="android.permission.READ_VOICEMAIL"/><!--보이스 메일 읽기 권한 허가-->
+    <uses-permission android:name="android.permission.WRITE_VOICEMAIL"/><!--보이스 메일 읽기 권한 허가-->
+
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name="com.study.iayout.kotlinpermission.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
