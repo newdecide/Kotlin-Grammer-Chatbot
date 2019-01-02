@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="TextView_Style">
+        <item name="android:background">#ffd045</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+  
+</resources>
