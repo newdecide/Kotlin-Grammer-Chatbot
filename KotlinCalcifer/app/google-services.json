@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "307999417182",
+    "firebase_url": "https://howlcalcifer-a11dc.firebaseio.com",
+    "project_id": "howlcalcifer-a11dc",
+    "storage_bucket": "howlcalcifer-a11dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307999417182:android:b974c78d2abe6a78",
+        "android_client_info": {
+          "package_name": "com.howl.howlcalcifer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307999417182-0h23imp194fgjr6quuldjue5ip5j9q20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.howl.howlcalcifer",
+            "certificate_hash": "173a34ab33c491c5487a611f3a33d4fefbd133d4"
+          }
+        },
+        {
+          "client_id": "307999417182-ibnmdoqcfsh5p2e31b7g0op0pfid0ncr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtX-gMvTaXweZbrz7zy12zZd5UYwXKwCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307999417182-ibnmdoqcfsh5p2e31b7g0op0pfid0ncr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
